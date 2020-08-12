@@ -1,0 +1,84 @@
+{
+	"Directory (tenant) ID": "f0fae2c0-c182-45fa-87b9-4d2bab321dc5",
+  "id": "1770308f-b59f-4043-b8ab-1d17a7002472",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "a62658fd-5f79-4414-b677-97e331a5f32a",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2018-04-06T01:09:22Z",
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"https://dynamics.microsoft.com/?AppID=a62658fd-5f79-4414-b677-97e331a5f32a/"
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "Microsoft Dynamics Financial Services",
+	"oauth2AllowIdTokenImplicitFlow": true,
+	"oauth2AllowImplicitFlow": true,
+	"oauth2Permissions": [
+		{
+			"adminConsentDescription": "Allow the application to access Microsoft Dynamics Financial Services on behalf of the signed-in user.",
+			"adminConsentDisplayName": "Access Microsoft Dynamics Financial Services",
+			"id": "8dc9573f-acbb-4ab0-afd1-91ad8d61c1a8",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"type": "User",
+			"userConsentDescription": "Allow the application to access Microsoft Dynamics Financial Serviceson your behalf.",
+			"userConsentDisplayName": "Access Microsoft Dynamics Financial Services",
+			"value": "user_impersonation"
+		}
+	],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": {
+		"idToken": [],
+		"accessToken": [],
+		"saml2Token": []
+	},
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "sachtony.com",
+	"replyUrlsWithType": [
+		{
+			"url": "https://dynamics.microsoft.com/?AppID=a62658fd-5f79-4414-b677-97e331a5f32a/",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000002-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": "https://dynamics.microsoft.com/?AppID=a62658fd-5f79-4414-b677-97e331a5f32a/",
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null,
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	}
+}
