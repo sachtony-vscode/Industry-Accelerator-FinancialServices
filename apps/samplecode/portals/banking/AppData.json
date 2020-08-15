@@ -1,0 +1,1433 @@
+{
+    "$schema$Sachtony$Data":  556932477,
+    "dashboard.database.widgets": [
+        {
+            "name": "My-Widget",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "insights-widget": {
+                    "type": {
+                        "count": {
+                            "dataDirection": "vertical",
+                            "dataType": "number",
+                            "legendPosition": "none",
+                            "labelFirstColumn": false,
+                            "columnsAsLabels": false
+                        }
+                    },
+                    "queryFile": "{your file folder}/activeSession.sql",
+                    "details": {
+                        "queryFile": "{your file folder}/activeSessionDetail.sql",
+                        "label": "SID",
+                        "value": "Login Name"
+                    }
+                }
+            }
+        }
+    ],
+    "$Workspace": {
+        "Workspace Name": "Sachtony",
+        "Workspace ID": "35107a29-dfce-4158-9a7a-f06a5f0b122b",
+        "Commercial ID Key": "95035d0c-ab4d-4f1d-9609-e9d4300e2b7a",
+        "String": "Sachtony.xml",
+        "OData feed for reporting service": "https://fef.msuc02.manage.microsoft.com/ReportingService/DataWarehouseFEService?api-version=v1.0",
+        "Bank API" : {
+            "BaseUrl Get" : "https://api.sandbox.sachtony.com/v1/banks/{bankId}",
+            "Get Bank":
+            {
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/banks/{bankId}",
+                "Bank Account" : {
+                    "$Bankaccount($7735)$EUR": {
+                        "Bank country": "DE",
+                        "Bank name": "Wirecard Bank AG",
+                        "Bank address": "Einsteinring 35 85609 Aschheim, Germany",
+                        "BIC": "WIREDEMM",
+                        "IBAN": "DE12512308006501747735",
+                        "Beneficiary name": "Sachtony company Ltd",
+                        "Balance": "5,000.00",
+                        "Currencies": "EUR"
+                    },
+                    "$Bankaccount($3430)$EUR": {
+                        "Bank country": "DE",
+                        "Bank name": "Wirecard Bank AG",
+                        "Bank address": "Einsteinring 35 85609 Aschheim, Germany",
+                        "BIC": "WIREDEMM",
+                        "IBAN": "DE53512308006501503430",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "EUR"
+                    },
+                    "$Bankaccount($6258)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "First Century Bank, National Association",
+                        "Bank address": "525 Federal Street Bluefield, WV–Bluefield, USA",
+                        "Routing (ABA)": "061120084",
+                        "Account number": "4019363006258",
+                        "Beneficiary name": "Sachtony company Ltd",
+                        "Currencies": "USD",
+                        "Balance": "5,000.00",
+                        "Account type": "CHECKING"
+                    },
+                    "$Bankaccount($2508)$GBP": {
+                        "Bank country": "BACS",
+                        "Bank name": "Barclays",
+                        "Bank address": "",
+                        "Sort code": "231486",
+                        "Account number": "01732508",
+                        "Beneficiary name": "Sachtony company Ltd",
+                        "Balance": "5,000.00",
+                        "Currencies": "GBP"
+                    },
+                    "$Bankaccount($5987)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "First Century Bank, National Association",
+                        "Bank address": "525 Federal Street Bluefield, WV–Bluefield, USA",
+                        "Routing ABA": "061120084",
+                        "Account number": "4018785005987",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "Account type": "CHECKING"
+                    },
+                    "$Bankaccount($1940)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "Ducom International develops Banking",
+                        "Bank address": "San Francisco CA, US",
+                        "Routing ABA": "9323163583475",
+                        "Account number": "325272063",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "Account type": "Business"
+                    },
+                    "$Bankaccount($2868)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "SAIGON THUONG TIN COMMERCIAL JOINT STOCK BANK",
+                        "Bank address": "266 268 Nam Ky Khoi Nghia St., Dist, VN Ho Chi Minh City",
+                        "Bank code": "79303001",
+                        "Swift": "SGTTVNVX",
+                        "Account number": "040066432868",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "Account type": "Business",
+                        "BaseUrl" : "https://www.isacombank.com.vn/"
+                    },
+                    "$Bankaccount($2499)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "VIETNAM BANK FOR AGRICULTURE AND RURAL DEVELOPMENT",
+                        "Bank address": "83 Nuyen Van Linh St., Dist, Ho Chi Minh City, VN",
+                        "Bank code": "01204009",
+                        "Swift": "VBAAVNVX",
+                        "Account number": "876393556",
+                        "Beneficiary name": "Nguyen thi thu hien",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "Account type": "Personal",
+                        "BaseUrl" : "https://ibank.agribank.com.vn"
+                    },
+                    "$Bankaccount($0442)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "VietNam Bank for Industry and Trade",
+                        "Bank address": "108 Tran Hung Dao, Hoan Kiem, Ha Noi, VN",
+                        "Bank code": "01201016",
+                        "Swift": "ICBVVNVXDDD",
+                        "Account number": "97145400442",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "Account type": "Business",
+                        "BaseUrl" : "https://ebanking.vietinbank.vn/"
+                    },
+                    "$Bankaccount($7461)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "Wells Fargo Bank, N.A.",
+                        "Bank address": "510 Townsend Street, San Francisco CA 94103",
+                        "Routing number": "121000248",
+                        "Swift": "WFBIUS6S",
+                        "Account number": "40630169950597461",
+                        "Beneficiary name": "Stripe Payments Company",
+                        "Balance": "",
+                        "Currencies": "USD"
+                    },
+                    "$Bankaccount($2925)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "Wells Fargo Bank, N.A.",
+                        "Bank address": "510 Townsend Street, San Francisco CA 94103",
+                        "Routing number": "121000248",
+                        "Swift": "WFBIUS6S",
+                        "Account number": "40630192285642925",
+                        "Beneficiary name": "Stripe Payments Company",
+                        "Balance": "",
+                        "Currencies": "USD"
+                    },
+                    "$Bankaccount($8020)$VND": {
+                        "Bank country": "VN",
+                        "Bank name": "Techcombank",
+                        "Bank address": "Lim Tower, 9-11 Ton Đuc Thang St., Dist, VN Ho Chi Minh City",
+                        "Routing number": "",
+                        "Bank code": "01310001",
+                        "Swift": "VTCBVNVX",
+                        "Account number": "19133952298020",
+                        "Beneficiary name": " Tran Thuy Dung",
+                        "Balance": "5,000.00",
+                        "Currencies": "",
+                        "BaseUrl" : "https://www.techcombank.com.vn/"
+                    },
+                    "$Bankaccount($1286)$VND": {
+                        "Bank country": "VN",
+                        "Bank name": "JOINT STOCK COMMERCIAL BANK FOR FOREIGN TRADE OF VIETNAM",
+                        "Bank address": "23 Nguyen Huu Tho St., 7 Dist, VN Ho Chi Minh City",
+                        "Routing number": "",
+                        "Bank code": "01203001",
+                        "Swift": "BFTVVNVX",
+                        "Account number": "1014241286",
+                        "Beneficiary name": "Cong Ty TNHH Cong Nghe PM CPA",
+                        "Balance": "",
+                        "Currencies": "VND",
+                        "BaseUrl" : "https://www.vietcombank.com.vn/"
+                    },
+                    "$Bankaccount($8009)$VND": {
+                        "Bank country": "VN",
+                        "Bank name": "MILITARY COMMERCIAL JOINT STOCK BANK",
+                        "Bank address": "24 Quang Trung St., Le Hong Phong, VN Quang Ngai City",
+                        "Routing number": "",
+                        "Bank code": "01311001",
+                        "Swift": "MSCBVNVX",
+                        "Account number": "6520109158009",
+                        "Beneficiary name": "Ngoc Linh Duong",
+                        "Balance": "",
+                        "Currencies": "VND",
+                        "BaseUrl" : "https://online.mbbank.com.vn/"
+                    },
+                    "$Bankaccount($7819)$USD": {
+                        "Bank country": "US",
+                        "Bank name": "MILITARY COMMERCIAL JOINT STOCK BANK",
+                        "Bank address": "21 CAT LINH WARD-DONG DA DISTRICT",
+                        "Routing number": "325272063",
+                        "Bank code": "01311001",
+                        "Swift": "MSCBVNVX",
+                        "Account number": "4137819",
+                        "Beneficiary name": "Sachtony Company Limited",
+                        "Balance": "5,000.00",
+                        "Currencies": "USD",
+                        "BaseUrl" : "https://online.mbbank.com.vn/"
+                    },
+                    "$Bankaccount($0058)$USD": {
+                        "Bank country": "VN",
+                        "Bank name": "VIETNAM EXPORT IMPORT COMMERCIAL JOINT STOCK BANK (Eximbank)",
+                        "Bank address": "20 - 22 Phan Chu Trinh St., Quang Ngai City, VN",
+                        "Routing number": "",
+                        "Bank code": "51305001",
+                        "Swift": "EBVIVNVX",
+                        "Account number": "160180689000058",
+                        "Beneficiary name": "Cong ty TNHH Sachtony",
+                        "Balance": "",
+                        "Currencies": "USD",
+                        "BaseUrl" : "https://www.eximbank.com.vn/"
+                    },
+                    "$Bankaccount($3014)$USD": {
+                        "Bank country": "SG",
+                        "Bank name": "Citibank Singapore",
+                        "Bank address": "3 Temasek Ave #14-00 Centennial Tower Singapore 039190, SG",
+                        "Routing number": "",
+                        "Bank code": "GCB",
+                        "Swift": "CITISGSG",
+                        "Account number": "0817543014",
+                        "Beneficiary name": "Microsoft Regional Sales Pte. Ltd",
+                        "Balance": "395.00",
+                        "Currencies": "USD",
+                        "BaseUrl" : ""
+                    },
+                    "$Bankaccount($)$USD": {
+                        "Bank country": "VN",
+                        "Bank name": "Shinhan Bank Vietnam",
+                        "Bank address": "138 - 142 Hai Ba Trung, Da Kao ward, Dist. 1, HCMC",
+                        "Routing number": "",
+                        "Bank code": "79616001",
+                        "Swift": "SHBKVNVX",
+                        "Account number": "13825449",
+                        "Beneficiary name": "Cong Ty TNHH Sachtony",
+                        "Balance": "",
+                        "Currencies": "USD",
+                        "BaseUrl" : "https://shinhan.com.vn/"
+                    }
+                },
+                
+                "bankId": "12345678",
+                "bankBic": "ABCDUSEFXXX",
+                "lastUpdated": null,
+                "statusText": "In Process",
+                
+                "transactionLimits": {
+                    "customLimits": true,
+                    "singleTransaction": "250",
+                    "dailyVolume": "9999"
+                },
+                
+                "blockedCorridors": {
+                
+                    "blockedCountries": 
+                    [
+                
+                        {
+                            "countryCode": "CUB",
+                            "countryDisplayName": "CUBA",
+                            "isoCountryCode": 192,
+                            "blockedDesc": "visaBlocked"
+                        }
+                    ]
+                },
+                
+                "bankProfile": {
+                    "bankName": "XYZ",
+    
+                    "settlementAccountBic": [
+                        "LMNOZZEFXXM",
+                        "LMNOZZEFXXY",
+                        "LMNOZZEFXXZ"
+                    ],
+                    "defaultCurrency": "USD",
+                    "defaultCurrencyIsoCode": 840,
+                    
+                    "address": {
+                        "line1": "12401 Los Indios Trl",
+                        "unitNo": "120",
+                        "city": "Austin",
+                        "state": "TX",
+                        "zipCode": "78727",
+                        "countryDisplayName": "USA",
+                        "countryIsoCode": 840
+                    },
+                    
+                    "primaryContact": {
+                        "name": "Jim Smith",
+                        "jobTitle": "SVP",
+                        "email": "jsmith@gmail.com",
+                        "phone": "897-099-7878"
+                    },
+                    
+                    "secondaryContact": {
+                        "name": "Jim Smith",
+                        "jobTitle": "SVP",
+                        "email": "jsmith@gmail.com",
+                        "phone": "897-099-7878"
+                    },
+                    
+                    "unifiedPaymentId": [
+                        "987864320",
+                        "657654322"
+                    ],
+                    "frequencyType": "Every Day",
+                    "recipientEmail": "ab@gmail.com"
+                },
+                "supportedCurrencies": [
+                    
+                    {
+                        "currencyIsoCode": 840,
+                        "currencyAlphaCode": "USD",
+                        "default": true
+                    },
+                    
+                    {
+                        "currencyIsoCode": 56,
+                        "currencyAlphaCode": "BEF",
+                        "default": false
+                    }
+                ]
+            },
+
+            "Get Companies": 
+            {
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/companies/banks",               
+                "startIndex": "000000039",
+                "endIndex": "000000089",
+                "nextIndex": 100002558,
+                "pageSize": 2,
+                "totalRecords": 2,
+                "remaingRecords": 1,
+                "nexturl": "https://qa.vbc.app.visa.com:8443/visab2bconnect/v2/companies/banks?bankId=12347777&amp;keyword=usd&amp;cursor=100002633&amp;reccount=182",
+                        
+                "pagingData": [                   
+                {
+                    "bankId": "10005896",
+                    "bank_bic": "ABCDUSYZ",
+                    "lastUpdated": "2020/03/31",
+                    "statusText": "Active",
+                    "companyId": "11",
+                        
+                    "transactionLimits": {
+                            "customLimits": true,
+                            "singleTransaction": "250000.00",
+                            "dailyVolume": "999999999.99"
+                    },
+                        
+                    "blockedCorridors": {
+                        
+                        "blockedCountries": [
+                            
+                            {
+                                "countryCode": "CUB",
+                                "countryDisplayName": "Cuba",
+                                "isoCountryCode": 192,
+                                "blockedDesc": "bankBlocked"
+                            },
+                            
+                            {
+                                "countryCode": "PRK",
+                                "countryDisplayName": "NORTH KOREA",
+                                "isoCountryCode": 408,
+                                "blockedDesc": "visaBlocked"
+                            },
+                            
+                            {
+                                "countryCode": "SYR",
+                                "countryDisplayName": "Syrian Arab Republic",
+                                "isoCountryCode": 760,
+                                "blockedDesc": "visaBlocked"
+                            },
+                            
+                            {
+                                "countryCode": "IRN",
+                                "countryDisplayName": "Islamic Republic of Iran",
+                                "isoCountryCode": 364,
+                                "blockedDesc": "visaBlocked"
+                            },
+                            
+                            {
+                                "countryCode": "SDN",
+                                "countryDisplayName": "Sudan",
+                                "isoCountryCode": 729,
+                                "blockedDesc": "visaBlocked"
+                            }
+                        ]
+                        },
+                        
+                        "companyProfile": {
+                            "defaultCurrency": "EUR",
+                            "defaultCurrencyIsoCode": 978,
+                            "corporateLegalName": "Volkswagen Group",
+                            "doingBusinessAs": "Bentley Motors Ltd.",
+                            "industryName": "Automotive",
+                            "industryCode": "31",
+                            "taxId": "v2ae197e-7d0e-487f-8829-a1990ccde35f",
+                            "businessRegistrationNumber": "7889",
+                            "bankAccountNumber": "07070077",
+                            "enterpriseId": "V-USA-EUR-10080373-100000001-001",
+                            "bankRoutingNumber": "565777",
+                            "iban": "ZZ123412341234123412341234",
+                            "clabe": null,
+                            "chipsUid": null,
+                            "swiftLEI": "54930084UKLVMY22DS16",
+                        
+                            "address": {
+                                "line1": "Berliner Ring",
+                                "unitNo": "2",
+                                "city": "Wolfsburg",
+                                "state": "Germany",
+                                "zipCode": "38440",
+                                "countryDisplayName": "Germany",
+                                "countryIsoCode": 978
+                            },
+                        
+                            "ownershipDetails": [
+                            {
+                                "prefix": "",
+                                "firstName": "",
+                                "middleName": "",
+                                "lastName": "",
+                                "suffix": "",
+                                "entityName": "Volkswagen Group",
+                                "nationalityCountryCode": "DEU",
+                                "countryOfResidence": "DEU",
+                                "nationalityCountryCodeISO": 276,
+                                "countryOfResidenceISO": 276,
+                                "countryOfBusinessRegistrationISO": 276,
+                                "address": "New York",
+                            
+                                "owners": {
+                                    "prefix": "",
+                                    "firstName": "Herbert",
+                                    "middleName": "",
+                                    "lastName": "Diess",
+                                    "suffix": "",
+                                    "entityName": null,
+                                    "nationalityCountryCode": "DEU",
+                                    "countryOfResidence": "DEU",
+                                    "nationalityCountryCodeISO": 276,
+                                    "countryOfResidenceISO": 276,
+                                    "countryOfBusinessRegistrationISO": 276,
+                                    "address": "Berliner Ring Unit 2, Wolfsburg Germany 38440",
+                                    "owners": null,
+                                    "isIndividual": true,
+                                    "isActive": true
+                                },
+                                "isIndividual": false,
+                                "isActive": true
+                            }],
+                        
+                            "remitReconcileProfile": {
+                        
+                                "remitProfile": {
+                                    "deliveryMethod": "email",
+                                    "attachmentFormat": "PDF",
+                                    "frequency": "Every day",
+                                    "email": "herbertd@gmail.com"
+                                },
+                        
+                                "reconcileProfile": {
+                                    "deliveryMethod": "email",
+                                    "attachmentFormat": "PDF",
+                                    "frequency": "Every day",
+                                    "email": "herbertd@gmail.com"
+                                }
+                            }
+                        }
+                    },
+                        
+                    {
+                        "bankId": "10005896",
+                        "bank_bic": "ABCDUSYZ",
+                        "lastUpdated": "2020/03/31",
+                        "statusText": "InActive",
+                        "companyBusinessId": "12",
+                        
+                        "transactionLimits": {
+                        "customLimits": false,
+                        "singleTransaction": "500000.00",
+                        "dailyVolume": "999999999.99"
+                    },
+                        
+                    "blockedCorridors": {
+                        
+                        "blockedCountries": [
+                        
+                        {
+                            "countryCode": "CUB",
+                            "countryDisplayName": "Cuba",
+                            "isoCountryCode": 192,
+                            "blockedDesc": "bankBlocked"
+                        },
+                        
+                        {
+                            "countryCode": "PRK",
+                            "countryDisplayName": "NORTH KOREA",
+                            "isoCountryCode": 408,
+                            "blockedDesc": "visaBlocked"
+                        },
+                        
+                        {
+                            "countryCode": "SYR",
+                            "countryDisplayName": "Syrian Arab Republic",
+                            "isoCountryCode": 760,
+                            "blockedDesc": "visaBlocked"
+                        },
+                        
+                        {
+                            "countryCode": "IRN",
+                            "countryDisplayName": "Islamic Republic of Iran",
+                            "isoCountryCode": 364,
+                            "blockedDesc": "visaBlocked"
+                        },
+                        
+                        {
+                            "countryCode": "SDN",
+                            "countryDisplayName": "Sudan",
+                            "isoCountryCode": 729,
+                            "blockedDesc": "visaBlocked"
+                        }]
+                    },
+                        
+                    "companyProfile": {
+                        "defaultCurrency": "USD",
+                        "defaultCurrencyIsoCode": 840,
+                        "corporateLegalName": "Walmart Inc.",
+                        "doingBusinessAs": "Vudu",
+                        "industryName": "Entertainment",
+                        "industryCode": "72",
+                        "taxId": "v4af192p-9c1q-784f-2988-b0199wwcv20f",
+                        "businessRegistrationNumber": "7889",
+                        "bankAccountNumber": "08080088",
+                        "enterpriseId": "V-USA-USA-80373100-100000891-185",
+                        "bankRoutingNumber": "910000190",
+                        "iban": "ZZ43214321432143214321",
+                        "clabe": null,
+                        "chipsUid": "315440",
+                        "swiftLEI": "265873382",
+                        
+                        "address": {
+                            "line1": "14 J Street",
+                            "unitNo": null,
+                            "city": "Bentonville",
+                            "state": "AR",
+                            "zipCode": "72712",
+                            "countryDisplayName": "USA",
+                           "countryIsoCode": 840
+                    },
+                       
+                    "ownershipDetails": [    
+                    {
+                        "prefix": "",
+                        "firstName": "Samuel",
+                        "middleName": "Moore",
+                        "lastName": "Walton",
+                        "suffix": "",
+                        "entityName": null,
+                        "nationalityCountryCode": "USA",
+                        "countryOfResidence": "USA",
+                        "nationalityCountryCodeISO": 840,
+                        "countryOfResidenceISO": 840,
+                        "countryOfBusinessRegistrationISO": 840,
+                        "address": "14 J Street Little Rock, Arkansas 72712",
+                        "owners": null,
+                        "isIndividual": true,
+                        "isActive": false
+                    }],
+                        
+                    "remitReconcileProfile": {
+                        
+                        "remitProfile": {
+                            "deliveryMethod": "email",
+                            "attachmentFormat": "XLSX",
+                            "frequency": "Upon Payment",
+                            "email": "walton@gmail.com"
+                        },
+                        
+                        "reconcileProfile": {
+                            "deliveryMethod": "email",
+                            "attachmentFormat": "XLSX",
+                            "frequency": "Upon Payment",
+                            "email": "walton@gmail.com"
+                        }
+                    }
+                }
+            }],
+            
+            "Get Net Position of a Bank" :
+            {
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/banks/netPosition",
+                "netPosition": [
+                {
+                    "currencyAlphaCode": "USD",
+                    "bankFunds": 50,
+                    "incomingAmount": 100,
+                    "outgoingAmount": 50,
+                    "asOfDate": "2019-04-22 04:59:37 GMT",
+                    "netPosition": 50,
+                    "upcomingWindow": "2019-04-22 10:00:00 GMT"
+                },
+                    
+                {
+                    "currencyAlphaCode": 840,
+                    "bankFunds": 500,
+                    "incomingAmount": 100,
+                    "outgoingAmount": 150,
+                    "asOfDate": "2019-04-22 04:59:37 GMT",
+                    "netPosition": -50,
+                    "upcomingWindow": "2019-04-22 10:00:00 GMT"
+                }]
+                    
+            }
+        },
+        "Company API" : {
+            "Add company" : {
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/companies",
+                "blockedCorridors": {
+                
+                    "blockedCountries": [
+                
+                    {
+                        "blockedDesc": "companyBlocked",
+                        "isoCountryCode": 4
+                    },
+                
+                    {
+                        "blockedDesc": "bankBlocked",
+                        "isoCountryCode": 192
+                    }
+                    ]
+                },
+                "companyId": 9999,
+                "bankId": 123456,
+                
+                "companyProfile": {
+                
+                    "remitReconcileProfile": {
+                
+                    "remitProfile": {
+                    "frequency": "Every day",
+                    "email": "absc@xyz.com",
+                    "attachmentFormat": "PDF",
+                    "deliveryMethod": "email"
+                    },
+                
+                    "reconcileProfile": {
+                        "frequency": "Every day",
+                        "email": "absc@xyz.com",
+                        "attachmentFormat": "PDF",
+                        "deliveryMethod": "email"
+                    }
+                },
+                "bankAccountNumber": "119191991",
+                "defaultCurrencyIsoCode": 840,
+                "doingBusinessAs": "VDP",
+                "businessRegistrationNumber": "1991991",
+                "taxId": "19191991",
+                
+                "ownershipDetails": [
+                
+                {
+                    "entityOwner": "",
+                    "countryOfResidence": "ALA",
+                    
+                    "ownerIndividuals": [
+                
+                    {
+                        "nationalityCountryCodeISO": 8,
+                        "nationalityCountryName": "ALBANIA",
+                        "countryOfResidenceName": "ALBANIA",
+                        "address": "Austin - TX",
+                        "active": true,
+                        "fullName": "Sam Doe",
+                        "countryOfResidenceISO": 8
+                    }
+                    ],
+                    "entityName": "",
+                    "address": "New York",
+                    "email": "lacey@gmail.com",
+                    "individual": true,
+                    "nationalityCountryCodeISO": 248,
+                    "active": true,
+                    "fullName": "Kiara Kate",
+                    "nationalityCountryCode": "ALA",
+                    "countryOfResidenceISO": 248
+                }
+                ],
+                    "swiftLEI": "",
+                    "enterpriseId": "V-USA-EUR-91211-0146",
+                    
+                    "primaryContact": {
+                    "phone": "1991",
+                    "email": "op@gmail.com",
+                    "name": "OPJones",
+                    "jobTitle": "SW"
+                },
+                    "chipsUid": "",
+                    
+                    "address": {
+                    "city": "Austin",
+                    "countryDisplayName": null,
+                    "unitNo": "214",
+                    "zipCode": 78727,
+                    "line1": "Research Blvd",
+                    "countryIsoCode": 840,
+                    "state": "Texas"
+                },
+                    "clabe": "101991919",
+                    "iban": "191919199191919",
+                    
+                    "authorizedSignatory": {
+                    "countryOfResidenceCodeISO": 840,
+                    "fullName": "Lara Joseph",
+                    "nationalityCountryCodeISO": 356
+                },
+                    "corporateLegalName": "VDPTEST",
+                    "bankRoutingNumber": "191919191",
+                    "industryCode": "22"
+                },
+                
+                    "transactionLimits": {
+                    "customLimits": true,
+                    "dailyVolume": 9990,
+                    "singleTransaction": 25
+                }
+            },
+
+            "Edit company information" : {
+                    "Url Put" : "https://sandbox.api.visa.com/visab2bconnect/v1/companies/{enterpriseId}",
+                    "companyId": "16",
+                    "bankId": "123456",
+                    
+                    "transactionLimits": {
+                        "customLimits": true,
+                        "singleTransaction": 250000,
+                        "dailyVolume": 99999999990
+                    },
+                    
+                    "blockedCorridors": {
+                    
+                        "blockedCountries": [
+                        
+                            {
+                            "isoCountryCode": 4,
+                            "blockedDesc": "companyBlocked"
+                            },
+                        
+                            {
+                            "isoCountryCode": 192,
+                            "blockedDesc": "bankBlocked"
+                            }
+                        ]
+                    },
+                    
+                    "companyProfile": 
+                    {
+                        "defaultCurrencyIsoCode": 978,
+                        "corporateLegalName": "HEB",
+                        "enterpriseId": "V-USA-EUR-10080373-100000001-001",
+                        "doingBusinessAs": "NA",
+                        "industryCode": "22",
+                        "businessRegistrationNumber": "7889",
+                        "bankAccountNumber": "",
+                        "bankRoutingNumber": "",
+                        "iban": "",
+                        "clabe": "3670954",
+                        "chipsUid": "",
+                        "swiftLEI": "",
+                        "taxId": "7889",
+                    
+                        "address": {
+                            "line1": "Research Blvd",
+                            "unitNo": "214",
+                            "countryIsoCode": 826
+                        },
+                    
+                        "authorizedSignatory": {
+                        "fullName": "Sarah Joseph",
+                        "nationalityCountryCodeISO": 356,
+                        "countryOfResidenceCodeISO": 840
+                    },
+                    
+                    "ownershipDetails": 
+                    [                   
+                    {
+                        "prefix": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "suffix": "",
+                        "entityName": "Entity A",
+                        "nationalityCountryCode": "ALA",
+                        "countryOfResidence": "ALA",
+                        "nationalityCountryCodeISO": 248,
+                        "countryOfResidenceISO": 248,
+                        "countryOfBusinessRegistrationISO": 248,
+                        "address": "New York",
+                    
+                        "owners": 
+                        {
+                            "prefix": "",
+                            "firstName": "James",
+                            "middleName": "",
+                            "lastName": "Dean",
+                            "suffix": "",
+                            "entityName": "",
+                            "nationalityCountryCode": "ALA",
+                            "countryOfResidence": "ALA",
+                            "nationalityCountryCodeISO": 248,
+                            "countryOfResidenceISO": 248,
+                            "countryOfBusinessRegistrationISO": 248,
+                            "address": "New York",
+                            "owners": null,
+                            "isIndividual": true,
+                            "isActive": true
+                        },
+                        "isIndividual": false,
+                        "isActive": true
+                    }
+                    ],
+                    
+                    "remitReconcileProfile": {
+                    
+                    "remitProfile": {
+                        "deliveryMethod": "email",
+                        "attachmentFormat": 12,
+                        "frequency": "Every day",
+                        "email": "abc@xyz.com"
+                    },
+                    
+                    "reconcileProfile": {
+                        "deliveryMethod": "email",
+                        "attachmentFormat": 12,
+                        "frequency": "Every day",
+                        "email": "abc@xyz.com"
+                    }
+                }
+            }
+                    
+        }
+
+        },
+        "Reference Data API": {
+            "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/global/industryCodes",
+            "Get Industry Codes" : 
+                [
+
+                    {
+                    "sicCode": "11",
+                    "sicDescription": "Agriculture, Forestry, Fishing and Hunting"
+                    },
+                    
+                    {
+                    "sicCode": "21",
+                    "sicDescription": "Mining, Quarrying, and Oil and Gas Extraction"
+                    },
+                    
+                    {
+                    "sicCode": "22",
+                    "sicDescription": "Utilities"
+                    },
+                    
+                    {
+                    "sicCode": "23",
+                    "sicDescription": "Construction"
+                    },
+                    
+                    {
+                    "sicCode": "31",
+                    "sicDescription": "Manufacturing"
+                    },
+                    
+                    {
+                    "sicCode": "32",
+                    "sicDescription": "Manufacturing"
+                    },
+                    
+                    {
+                    "sicCode": "33",
+                    "sicDescription": "Manufacturing"
+                    },
+                    
+                    {
+                    "sicCode": "42",
+                    "sicDescription": "Wholesale Trade"
+                    },
+                    
+                    {
+                    "sicCode": "44",
+                    "sicDescription": "Retail Trade"
+                    },
+                    
+                    {
+                    "sicCode": "45",
+                    "sicDescription": "Retail Trade"
+                    },
+                    
+                    {
+                    "sicCode": "48",
+                    "sicDescription": "Transportation and Warehousing"
+                    },
+                    
+                    {
+                    "sicCode": "49",
+                    "sicDescription": "Transportation and Warehousing"
+                    },
+                    
+                    {
+                    "sicCode": "52",
+                    "sicDescription": "Finance and Insurance"
+                    },
+                    
+                    {
+                    "sicCode": "53",
+                    "sicDescription": "Real Estate and Rental and Leasing"
+                    },
+                    
+                    {
+                    "sicCode": "54",
+                    "sicDescription": "Professional, Scientific, and Technical Services"
+                    },
+                    
+                    {
+                    "sicCode": "55",
+                    "sicDescription": "*Management of Companies and Enterprises*"
+                    },
+                    
+                    {
+                    "sicCode": "56",
+                    "sicDescription": "Administrative and Support and Waste Management and Remediation Services"
+                    },
+                    
+                    {
+                    "sicCode": "62",
+                    "sicDescription": "Health Care and Social Assistance"
+                    },
+                    
+                    {
+                    "sicCode": "72",
+                    "sicDescription": "Arts, Entertainment, and Recreation"
+                    },
+                    
+                    {
+                    "sicCode": "72",
+                    "sicDescription": "Accommodation and Food Services"
+                    },
+                    
+                    {
+                    "sicCode": "81",
+                    "sicDescription": "Other Services (except Public Administration)"
+                    },
+                    
+                    {
+                    "sicCode": "92",
+                    "sicDescription": "Public Administration"
+                    }
+                ]
+
+            },
+            "Get Visa Defined Blocked Countries": 
+            [
+                {
+                    "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/global/defaultBlockedCorridors"
+                },
+                {
+                    "countryCode": "AFG",
+                    "countryDisplayName": "AFGHANISTAN",
+                    "isoCountryCode": 4,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "ALB",
+                    "countryDisplayName": "ALBANIA",
+                    "isoCountryCode": 8,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "ASM",
+                    "countryDisplayName": "AMERICAN SAMOA",
+                    "isoCountryCode": 16,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "AUT",
+                    "countryDisplayName": "AUSTRIA",
+                    "isoCountryCode": 40,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "BRB",
+                    "countryDisplayName": "BARBADOS",
+                    "isoCountryCode": 16,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "ALA",
+                    "countryDisplayName": "ALAND ISLANDS",
+                    "isoCountryCode": 248,
+                    "blockedDesc": "visaBlocked"
+                },
+                    
+                {
+                    "countryCode": "ABW",
+                    "countryDisplayName": "ARUBA",
+                    "isoCountryCode": 533,
+                    "blockedDesc": "visaBlocked"
+                }
+            ],
+
+            "Notification Lookup" :
+            {
+                
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/global/notificationLookup",
+                
+                "deliveryMethods": [
+                    
+                {
+                    "value": 1,
+                    "text": "Email"
+                }
+                ],
+                    
+                    "attachmentFormats": [
+                    
+                    {
+                    "value": 11,
+                    "text": "CSV"
+                    },
+                    
+                    {
+                    "value": 12,
+                    "text": "PDF"
+                    },
+                    
+                    {
+                    "value": 13,
+                    "text": "XLS"
+                    }
+                    ],
+                    
+                    "frequency": [
+                    
+                    {
+                    "value": 21,
+                    "text": "Upon Payment"
+                    },
+                    
+                    {
+                    "value": 22,
+                    "text": "Every Day"
+                    }
+                    ]
+                
+
+            },
+            "Supported Currencies": 
+                [
+                    {
+                        "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/global/supportedCurrencies"
+                    },
+                    {
+                        "currencyISOCode": 356,
+                        "currencyName": "INDIAN RUPEE",
+                        "currencyAlphaCode": "INR",
+                        "decimalPositions": 2,
+                        "currencyDescription": ""
+                    },
+                    
+                    {
+                        "currencyISOCode": 392,
+                        "currencyName": "YEN",
+                        "currencyAlphaCode": "JPY",
+                        "decimalPositions": 0,
+                        "currencyDescription": "JAPANESE YEN"
+                    },
+                    
+                    {
+                        "currencyISOCode": 458,
+                        "currencyName": "MALAYSIAN RINGGIT",
+                        "currencyAlphaCode": "MYR",
+                        "decimalPositions": 2,
+                        "currencyDescription": ""
+                    },
+                    
+                    {
+                        "currencyISOCode": 682,
+                        "currencyName": "SAUDI RIYAL",
+                        "currencyAlphaCode": "SAR",
+                        "decimalPositions": 2,
+                        "currencyDescription": ""
+                    },
+                    
+                    {
+                        "currencyISOCode": 702,
+                        "currencyName": "SINGAPORE DOLLAR",
+                        "currencyAlphaCode": "SGD",
+                        "decimalPositions": 2,
+                        "currencyDescription": ""
+                    },
+                    
+                    {
+                        "currencyISOCode": 764,
+                        "currencyName": "THAI BAHT",
+                        "currencyAlphaCode": "THB",
+                        "decimalPositions": 2,
+                        "currencyDescription": "THAI BAHT"
+                    },
+                    
+                    {
+                        "currencyISOCode": 784,
+                        "currencyName": "UAE DIRHAM",
+                        "currencyAlphaCode": "AED",
+                        "decimalPositions": 2,
+                        "currencyDescription": "UAE DIRHAM"
+                    },
+                    
+                    {
+                        "currencyISOCode": 826,
+                        "currencyName": "POUND STERLING",
+                        "currencyAlphaCode": "GBP",
+                        "decimalPositions": 2,
+                        "currencyDescription": "POUND STERLING"
+                    },
+                    
+                    {
+                        "currencyISOCode": 840,
+                        "currencyName": "UNITED STATES DOLLAR",
+                        "currencyAlphaCode": "USD",
+                        "decimalPositions": 2,
+                        "currencyDescription": "U.S. DOLLAR"
+                    },
+                    
+                    {
+                        "currencyISOCode": 978,
+                        "currencyName": "EURO",
+                        "currencyAlphaCode": "EUR",
+                        "decimalPositions": 2,
+                        "currencyDescription": "EURO"
+                    }
+                ],
+            "Search available suppliers": 
+            {
+                
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/suppliers/{keyword}",
+                "startIndex": "000000039",
+                "endIndex": "000000089",
+                "nextIndex": 100002558,
+                "numberOfRecords": 3,
+                "totalRecords": 6,
+                "remaingRecords": 3,
+                "nexturl": "https://qa.vbc.app.visa.com:8443/visab2bconnect/v2/suppliers/EUR?cursor=100002558&amp;reccount=3",
+                    
+                "pagingData": 
+                    [
+                        {
+                            "companyId": "000000039",
+                            "companyName": "HEB",
+                            "bankName": "ZURICH BNK",
+                            "bankId": "123456",
+                            "bankBic": "12345678",
+                            "enterpriseId": "V-USA-EUR-20990373-100900001-008",
+                            "countryName": "USA",
+                            "alphaCode": "USA",
+                            "defaultCurrency": "USD",
+                            "defaultCurrencyCountryIsoCode": 840,
+                            "countryIsoCode": 840,
+                            "ibanNumber": "US330006100519786457867300",
+                            "acctNumber": "9086666911",
+                            "clabeNumber": "456912089912788940",
+                            "routingNumber": "089000887",
+                            "taxId": "567730011",
+                            "registrationId": "344222900",
+                            
+                            "address": {
+                                "line1": "9400 W Parmer",
+                                "unitNo": "20",
+                                "city": "Austin",
+                                "state": "TX",
+                                "zipCode": 78727,
+                                "countryDisplayName": "USA",
+                                "countryIsoCode": 840
+                            }
+                        },
+                    
+                        {
+                            "companyId": "000000049",
+                            "companyName": "WALMART",
+                            "bankName": "ALLY",
+                            "bankId": "123456",
+                            "bankBic": "12345678",
+                            "enterpriseId": "V-USA-EUR-20990373-100000001-004",
+                            "countryName": "USA",
+                            "alphaCode": "USA",
+                            "defaultCurrency": "USD",
+                            "defaultCurrencyCountryIsoCode": 840,
+                            "countryIsoCode": 840,
+                            "ibanNumber": "US330006100519786457841300",
+                            "acctNumber": "9022266912",
+                            "clabeNumber": "456912089912788940",
+                            "routingNumber": "089000034",
+                            "taxId": "567781911",
+                            "registrationId": "892222900",
+                        
+                            "address": {
+                                "line1": "9400 W Parmer",
+                                "unitNo": "20",
+                                "city": "Austin",
+                                "state": "TX",
+                                "zipCode": 78727,
+                                "countryDisplayName": "USA",
+                                "countryIsoCode": 840
+                            }
+                        },
+                        
+                        {
+                            "companyId": "000000089",
+                            "companyName": "WALGREENS",
+                            "bankName": "DEUTSCH",
+                            "bankId": "123456",
+                            "bankBic": "12345678",
+                            "enterpriseId": "V-USA-EUR-10080373-100000001-001",
+                            "countryName": "USA",
+                            "alphaCode": "USA",
+                            "defaultCurrency": "USD",
+                            "defaultCurrencyCountryIsoCode": 840,
+                            "countryIsoCode": 840,
+                            "ibanNumber": "US330006100519786457841326",
+                            "acctNumber": "9022212222",
+                            "clabeNumber": "788912089912788940",
+                            "routingNumber": "089000034",
+                            "taxId": "567781944",
+                            "registrationId": "892222111",
+                        
+                            "address": {
+                                "line1": "9400 W Parmer",
+                                "unitNo": "20",
+                                "city": "Austin",
+                                "state": "TX",
+                                "zipCode": 78727,
+                                "countryDisplayName": "USA",
+                                "countryIsoCode": 840
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "Payments API" : {
+            "Make Payment" :  
+            {
+                "Url Post" : "https://sandbox.api.visa.com/visab2bconnect/v1/payments",
+                "debtorEnterpriseId": "V-USA-USA-80373100-100000891-185",
+                "creditorEnterpriseId": "V-USA-USA-80373100-100000891-185",
+                "debtorAgentBid": "12341234",
+                "creditorAgentBid": "43214321",
+                "debtorAgentBic": "ABCDUSEFXXX",
+                "creditorAgentBic": "LMNOZZEFXXX",
+                "debtorIBAN": "ZZ123412341234123412341234",
+                "creditorIBAN": "ZZ43214321432143214321",
+                "debtorAccountNumber": "07070077",
+                "creditorAccountNumber": "08080088",
+                "debtorName": "Debtor Test",
+                "debtorAddress": "12401 Debtor Test Address Unit 120 Austin, TX 78727",
+                "debtorCountry": "US",
+                "creditorName": "Creditor Test",
+                "creditorAddress": "2 Creditor Test Address Wolfsburg Germany 38440",
+                "creditorCountry": "DE",
+                "creditorContactPhoneNumber": "+49-89-636-48018",
+                "creditorTaxID": "v2ae197e-7d0e-487f-8829-a1990ccde35f",
+                "valueAddedTaxIndicator": "INC",
+                "creditorAgentInstruction": "test",
+                "creditorAgentClearingMemberID": "A1BCD1234ABCD1234A1B2C3D41234ABC123",
+                "creditorAgentBranchID": "A1BCD1234ABCD1234A1B2C3D41234ABC123",
+                "creditorAgentBranchName": "Creditor Test Branch Name",
+                "paymentPurpose": "Test",
+                "instructingReimbursementAgent": "AABBGBCCXXX",
+                "transactionID": "BD9ISCA5KT0XXIQSRLQXF7S5L5JBG4KQY6P",
+                "endToEndID": "GSBNRH6B89GHAZ0RUGNIN3KRXAPIZZCXYUH",
+                
+                "structuredRemittance": [
+                {
+                    "invoiceNumber": "123",
+                    "poNumber": "321",
+                    "invoiceNotes": "Payment as agreed",
+                    "partialPayment": false
+                }],
+                "instructedCurrency": "EUR",
+                "instructedAmount": 50000,
+                "fxTradeRefNumber": "BD9ISCA5KT0XXIQSRLQXF7S5L9JBG4KQY6P",
+                "serviceLevel": "STANDARD",
+                "unstructuredRemittance": "test"
+            },
+            "FX Rates Calculator": {
+                "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/fees/fxRatesCalculator",
+                "Effective Conversion Rate" : 0.66206931
+            },
+            "Search Payments": 
+            [
+                {
+                    "Url Get" : "https://sandbox.api.visa.com/visab2bconnect/v1/payments/bankId/{bankId}/searchType/{searchType}/keyword/{keyword}",
+                    "startIndex": "100000039",
+                    "endIndex": "100000089",
+                    "nextIndex": "100002558",
+                    "pageSize": 2,
+                    "totalRecords": 1,
+                    "remainingRecords": "0",
+                    "nexturl": "https://qa.vbc.app.visa.com:8443/visab2bconnect/v2/payments/bankId/12222225/searchType/O/keyword/REGRCA1QXXX?fromDate=2019-12-06&amp;toDate=2019-12-07&amp;cursor=1000000000078950&amp;reccount=29",
+                
+                    "pagingData": [
+                
+                    {
+                        "paymentDateAndTime": "2020-04-31T09:10:37",
+                        "lastUpdatedDateTime": "2020-04-31T09:10:37",
+                        "recipientCorpName": "Receiver Company",
+                        "recipientBankName": "Receiver Bank",
+                        "recipientBankBID": "12341234",
+                        "recipientBankBIC": "LMNOZZEFXXX",
+                        "customerAccountNumber": "07070077",
+                        "originatingCorporateName": "Payer Company",
+                        "creditorAccountNumber": "08080088",
+                        "creditorContactPhoneNumber": "+012-1231231234",
+                        "creditorTaxID": "v2ae197e-7d0e-487f-8829-a1990ccde35f",
+                        "valueAddedTaxIndicator": "INC",
+                        "originatingBankName": "Originating Bank",
+                        "originatingBankBID": "43214321",
+                        "originatingBankBIC": "ABCDUSEFXXX",
+                        "creditorAgentInstruction": "test",
+                        "creditorAgentClearingMemberID": "A1BCD1234ABCD1234A1B2C3D41234ABC123",
+                        "creditorAgentBranchID": "A1BCD1234ABCD1234A1B2C3D41234ABC123",
+                        "creditorAgentBranchName": "Creditor Test Branch Name",
+                
+                        "invoiceList": [
+                
+                        {
+                            "invoiceNumber": "123",
+                            "poNumber": "321",
+                            "paymentAmount": 50000,
+                            "paymentCurrencyIsoCode": 978,
+                            "paymentCurrency": "EUR",
+                            "notes": "Payment as Agreed",
+                            "partialPayment": false
+                        }],
+                        "fxRate": "0.90",
+                        "fxTradeReferenceNumber": "BD9ISCA5KT0XXIQSRLQXF7S5L9JBG4KQY6P",
+                        "total": "50000.00",
+                        "currency": "EUR",
+                        "statusText": "Payment On Hold",
+                        "senderEnterpriseId": "V-USA-EUR-20373-2342-004",
+                        "recieverEnterpriseId": "V-USA-EUR-9835334-2432-001",
+                        "paymentId": "1000000000463730",
+                        "actualSettlementDate": "2020-03-31T09:10:37",
+                        "expectedSettlementDate": "2020-04-03T09:10:37",
+                        "paymentMethod": "API",
+                        "paymentStatus": "Pending Settlement",
+                        "instructingReimbursementAgent": "AABBGBCCXXX",
+                        "transactionID": "BD9ISCA5KT0XXIQSRLQXF7S5L5JBG4KQY6P",
+                        "endToEndID": "GSBNRH6B89GHAZ0RUGNIN3KRXAPIZZCXYUH",
+                        "serviceLevel": "STANDARD",
+                        "paymentPurpose": "test",
+                        "unstructuredRemittance": "test",
+                        "type": "In Network"
+                    }]
+                }
+            ],
+            "Validate Payment Eligibility":  
+            {
+                "Url Post" : "https://sandbox.api.visa.com/visab2bconnect/v1/payments/validateEligibility",
+                "debtorBankBic": "ABCDUSEFXXX",
+                "creditorBankBic": "LMNOZZEFXXX",
+                "debtorEnterpriseId": "V-USA-EUR-10080373-100000001-001",
+                "creditorEnterpriseId": "V-USA-USA-80373100-100000891-185",
+                "debtorIBAN": "ZZ123412341234123412341234",
+                "debtorAccountNumber": "07070077",
+                "creditorIBAN": "ZZ43214321432143214321",
+                "creditorAccountNumber": "08080088",
+                "debtorCountry": "FRA",
+                "creditorCountry": "USA",
+                "settlementAmount": 500000,
+                "settlementCurrency": "EUR"
+            }
+
+        },
+
+        "Country Currency": 
+        {
+            "US": "USD",
+            "AU": "AUD",
+            "SG": "SGD",
+            "DE": "EUR"
+        },
+        "Tax": {
+            "id": "txi_HYgt9N97lidLQO",
+            "object": "tax_id",
+            "country": "US",
+            "created": 556932477,
+            "customer": "cus_GzaazUPXZkJwaz",
+            "livemode": false, 
+            "type": "eu_vat",
+            "value": "DE0314116936",
+            "verification": {
+            "status": "Verify",
+            "verified_address": null,
+            "verified_name": null
+            }
+        }
+}
+
