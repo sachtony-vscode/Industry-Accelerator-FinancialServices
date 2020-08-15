@@ -1,0 +1,31 @@
+{
+    "$schema": {
+        "API Requests": 
+        {
+            "Accept" : "https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1",
+            "Authorization": "https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8",
+            "Content-Type": "https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17",
+            "JSON Web Token (JWT)": "https://tools.ietf.org/html/rfc7519",
+            "Paypal": {
+                "Sandbox": "https://api.sandbox.paypal.com",
+                "Live": "https://api.paypal.com",
+                "Production": "https://api.production.paypal.com"
+            },
+            "Sachtonypay": {
+                "Sandbox": "https://api.sandbox.pay.sachtony.com",
+                "Live": "https://api.pay.sachtony.com",
+                "Production": "https://api.production.pay.sachtony.com"
+            },
+            "Stripe": {
+                "Sandbox": "https://api.sandbox.stripe.com",
+                "Live": "https://api.stripe.com",
+                "Production": "https://api.production.stripe.com"
+            },
+            "Visa": {
+                "Sandbox": "https://api.sandbox.visa.com",
+                "Live": "https://api.visa.com",
+                "Production": "https://api.production.visa.com"
+            }
+        }
+    }
+}
